@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualization</title>
+
+  <link rel="stylesheet" href="BubbleMap.css">
+  <script src="BubbleMap.js"></script>
+</head>
+
+<body>
+  <nav>
+    <h1 style = "font-weight: 300;">Select Category</h1>
+    <ul id="categoryList">
+      <li onclick="showCategory('africana')">Africana Studies</li>
+      <li onclick="showCategory('american')">American Studies</li>
+      <li onclick="showCategory('asian')">Asian Studies Program</li>
+      <li onclick="showCategory('classics')">Classics Greek Latin</li>
+      <li onclick="showCategory('eastasian')">East Asian Languages Cultures</li>
+      <li onclick="showCategory('environmental')">Environmental Studies</li>
+      <li onclick="showCategory('history')">History</li>
+      <li onclick="showCategory('science')">Science Technology Studies</li>
+      <li onclick="showCategory('sociology')">Sociology</li>
+      <li onclick="showCategory('women')">Women Gender Sexuality Studies</li>
+    </ul>
+  </nav>
+  
+  <div id="categoryContent"></div>
+
+</body>
+</html>
